@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+}
+.background{
+background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  
+background: linear-gradient(to right, #753a88, #cc2b5e); 
+height: 100vh;
+width: 100%;
+
+}
+.convert_field{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+.header{
+    color:#c7ecee;
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    
+}
+.header:hover{
+    color: white;
+}
+.result , .query{
+    margin-top: 50px;
+}
+#amount , #result{
+    width:300px;
+}
+#result,#amount{
+    border-radius: 10px;
+}
+#logo{
+    transition: 3s;
+}
+#logo:hover{
+    transform: rotate(360deg);
+}
