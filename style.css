@@ -38,3 +38,9 @@ width: 100%;
 #logo:hover{
     transform: rotate(360deg);
 }
+@media only screen and (max-width: 768px){
+    .convert_field{
+        width: 90%;
+        height: 80%;
+    }
+}
